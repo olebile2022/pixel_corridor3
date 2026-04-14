@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pixel Corridor | Web Design & Development</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <div class="logo">PC</div>
+      <div>
+        <h1>Pixel Corridor</h1>
+        <p>Web Design & Development Solutions</p>
+      </div>
+    </div>
+    <nav class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#why">Why Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="showcase" class="section showcase-section">
+      <div class="showcase-grid">
+        <div class="showcase-copy">
+          <p class="section-label">Digital Solutions</p>
+          <h2>From elegant websites to secure hosting, we bring your brand online.</h2>
+          <p>Pixel Corridor designs polished, modern websites with strong visuals and fast performance. Our work is crafted to convert visitors into customers.</p>
+          <a class="button primary" href="#contact">Talk to us</a>
+        </div>
+        <div class="showcase-images">
+          <article class="image-card">
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80" alt="Website design workspace" />
+            <p>Professional design tailored for your business.</p>
+          </article>
+          <article class="image-card">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" alt="Development and hosting" />
+            <p>Secure hosting and reliable online performance.</p>
+          </article>
+          <article class="image-card">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80" alt="Digital support and analytics" />
+            <p>Beautiful, usable websites designed to help you grow.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section services-section">
+      <div class="section-header">
+        <p class="section-label">Our Services</p>
+        <h2>Packages, hosting, domains, email, SEO, and website builds.</h2>
+      </div>
+      <div class="service-nav">
+        <button class="service-chip active" type="button" data-target="website-packages">Websites</button>
+        <button class="service-chip" type="button" data-target="maintenance-packages">Maintenance</button>
+        <button class="service-chip" type="button" data-target="domain-packages">Domains</button>
+        <button class="service-chip" type="button" data-target="hosting-packages">Hosting</button>
+        <button class="service-chip" type="button" data-target="email-packages">Email</button>
+        <button class="service-chip" type="button" data-target="seo-packages">SEO</button>
+      </div>
+
+      <div id="website-packages" class="service-group active">
+        <h3>Website Plans</h3>
+        <div class="cards-grid">
+          <article class="card">
+            <h4>Launch Package</h4>
+            <p>Perfect for businesses that need a clean, fast-loading introduction online.</p>
+            <ul class="card-list">
+              <li>Two polished pages for your services and contact information</li>
+              <li>1GB of hosting provided</li>
+              <li>Fully responsive mobile-ready design</li>
+            </ul>
+            <p class="card-price">$265 <span>BWP 3,612</span></p>
+          </article>
+          <article class="card">
+            <h4>Starter Package</h4>
+            <p>An affordable small business bundle with four essential site pages.</p>
+            <ul class="card-list">
+              <li>Four static pages to present your business clearly</li>
+              <li>1GB hosting with secure performance</li>
+              <li>Optimized layout for every screen size</li>
+            </ul>
+            <p class="card-price">$415 <span>BWP 5,648</span></p>
+          </article>
+          <article class="card">
+            <h4>Growth Package</h4>
+            <p>A managed website solution that makes it easy to keep your site content fresh.</p>
+            <ul class="card-list">
+              <li>Four editable pages powered by a CMS</li>
+              <li>Unlimited page expansion using WordPress</li>
+              <li>1GB hosting plus full launch support</li>
+            </ul>
+            <p class="card-price">$566 <span>BWP 7,685</span></p>
+          </article>
+        </div>
+      </div>
+
+      <div id="maintenance-packages" class="service-group">
+        <h3>Maintenance Packages</h3>
+        <div class="cards-grid">
+          <article class="card">
+            <h4>Bronze</h4>
+            <p>2 hours per month of updates, content changes, and bug fixes.</p>
+            <p class="card-price">$117 <span>P1,630</span></p>
+          </article>
+          <article class="card">
+            <h4>Silver</h4>
+            <p>4 hours per month with additional support and regular improvements.</p>
+            <p class="card-price">$207 <span>P2,900</span></p>
+          </article>
+          <article class="card">
+            <h4>Gold</h4>
+            <p>6 hours per month with priority updates and performance tuning.</p>
+            <p class="card-price">$312 <span>P4,368</span></p>
+          </article>
+        </div>
+      </div>
+
+      <div id="domain-packages" class="service-group">
+        <h3>Domain Packages</h3>
+        <div class="cards-grid">
+          <article class="card">
+            <h4>BW Domain Registration</h4>
+            <p>Register your .co.bw, .org.bw, .ac.bw, or other Botswana domain.</p>
+            <p class="card-price">$24 <span>P336</span></p>
+          </article>
+          <article class="card">
+            <h4>Business Domain</h4>
+            <p>Premium domain registration with professional setup and DNS support.</p>
+            <p class="card-price">$54 <span>P750</span></p>
+          </article>
+        </div>
+      </div>
+
+      <div id="hosting-packages" class="service-group">
+        <h3>Hosting Packages</h3>
+        <div class="cards-grid">
+          <article class="card">
+            <h4>Silver Hosting</h4>
+            <p>1GB storage, daily backups, and real-time malware scanning.</p>
+            <p class="card-price">$175 <span>P2,451</span></p>
+          </article>
+          <article class="card">
+            <h4>Gold Hosting</h4>
+            <p>2GB storage with secure hosting, backups, and monitoring.</p>
+            <p class="card-price">$224 <span>P3,135</span></p>
+          </article>
+          <article class="card">
+            <h4>Platinum Hosting</h4>
+            <p>4GB storage and advanced hosting protections for growing sites.</p>
+            <p class="card-price">$287 <span>P4,020</span></p>
+          </article>
+          <article class="card">
+            <h4>Diamond Hosting</h4>
+            <p>6GB storage with premium support, backups, and performance tools.</p>
+            <p class="card-price">$367 <span>P5,146</span></p>
+          </article>
+          <article class="card">
+            <h4>Diamond Plus Hosting</h4>
+            <p>10GB storage plus top-tier security and backup coverage.</p>
+            <p class="card-price">$470 <span>P6,587</span></p>
+          </article>
+        </div>
+      </div>
+
+      <div id="email-packages" class="service-group">
+        <h3>Email Packages</h3>
+        <div class="cards-grid">
+          <article class="card">
+            <h4>Mail Lite</h4>
+            <p>5GB mailbox with professional email, calendar, and collaboration tools.</p>
+            <p class="card-price">$2.04 <span>P28.50</span> / user / month</p>
+          </article>
+          <article class="card">
+            <h4>Mail Promo</h4>
+            <p>10GB mailbox with enhanced collaboration and business email features.</p>
+            <p class="card-price">$2.60 <span>P36.48</span> / user / month</p>
+          </article>
+          <article class="card">
+            <h4>Mail Premium</h4>
+            <p>50GB mailbox, archival, eDiscovery, and advanced email protection.</p>
+            <p class="card-price">$5.86 <span>P82.00</span> / user / month</p>
+          </article>
+          <article class="card">
+            <h4>GSuite Business Starter</h4>
+            <p>Google Workspace email, storage, and productivity tools for teams.</p>
+            <p class="card-price">$10.57 <span>P148</span> / user / month</p>
+          </article>
+        </div>
+      </div>
+
+      <div id="seo-packages" class="service-group">
+        <h3>SEO Packages</h3>
+        <div class="cards-grid">
+          <article class="card">
+            <h4>SEO DIY</h4>
+            <p>Self-help SEO toolkit with audit tools, dashboard, and action guidance.</p>
+            <p class="card-price">$136 <span>P1,899</span> / month</p>
+          </article>
+          <article class="card">
+            <h4>Onsite SEO Monitoring</h4>
+            <p>Professional SEO monitoring with keyword updates, reports, and local SEO.</p>
+            <p class="card-price">$207 <span>P2,899</span> / month</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="why" class="section why-section">
+      <div class="section-header">
+        <p class="section-label">Why Choose Us?</p>
+        <h2>Focused on quality, reliability, and growth</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature">
+          <h3>Modern & Responsive</h3>
+          <p>Designs that look great on desktops, tablets, and phones.</p>
+        </article>
+        <article class="feature">
+          <h3>Secure & Reliable</h3>
+          <p>High-performance websites with strong security and stable hosting.</p>
+        </article>
+        <article class="feature">
+          <h3>Affordable Packages</h3>
+          <p>Great solutions for startups and growing businesses.</p>
+        </article>
+        <article class="feature">
+          <h3>Ongoing Support</h3>
+          <p>We stay with you after launch to help your business succeed online.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section quote-section">
+      <div class="quote-card">
+        <h2>Connect your business to the digital world</h2>
+        <p>Custom websites, friendly support, and affordable packages designed for businesses in Gaborone and beyond.</p>
+        <a class="button primary" href="#contact">Start Your Project</a>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="section-header">
+        <p class="section-label">Contact Us</p>
+        <h2>Let’s build something great together</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Get in touch</h3>
+          <p>Call or WhatsApp us to discuss your website project.</p>
+          <p class="contact-detail"><strong>Phone:</strong> <a href="tel:+74625497">74625497</a></p>
+          <p class="contact-detail"><strong>Location:</strong> Based in Gaborone</p>
+          <a class="button secondary" href="https://wa.me/24625497">Message on WhatsApp</a>
+        </div>
+        <form class="contact-form" action="mailto:info@pixelcorridor.com" method="post" enctype="text/plain">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="Name" placeholder="Your full name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="Email" placeholder="you@example.com" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="Message" rows="5" placeholder="Tell us about your project" required></textarea>
+
+          <button type="submit" class="button primary">Send Inquiry</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Pixel Corridor © 2026 · Web design, hosting, security, and support for small businesses.</p>
+  </footer>
+
+  <script>
+    const serviceButtons = document.querySelectorAll('.service-chip');
+    const serviceGroups = document.querySelectorAll('.service-group');
+
+    function showServiceCategory(id) {
+      serviceGroups.forEach(group => {
+        group.classList.toggle('active', group.id === id);
+      });
+      serviceButtons.forEach(button => {
+        button.classList.toggle('active', button.dataset.target === id);
+      });
+    }
+
+    serviceButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        showServiceCategory(button.dataset.target);
+      });
+    });
+
+    showServiceCategory('website-packages');
+  </script>
+</body>
+</html>
